@@ -1,6 +1,6 @@
 local Update = loadstring(game:HttpGet("https://raw.githubusercontent.com/lobox920/Notification-Library/Main/Library.lua"))()
 local Alert = loadstring(Game:HttpGet"https://raw.githubusercontent.com/Minhnhatz/Idk/main/Ui.lua")()
-local Library = Update:Window("Blox Fruits")
+local Library = Update:Mobile("Blox Fruits")
 local Main = Library:Tab("Main","rbxassetid://10723407389")
 local Set = Library:Tab("Setting","rbxassetid://10734950309")
 local Hold = Library:Tab("Hold Skill","rbxassetid://10734984606")
