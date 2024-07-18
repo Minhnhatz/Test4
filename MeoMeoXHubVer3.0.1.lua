@@ -1,4 +1,4 @@
-local Update = https://raw.githubusercontent.com/lobox920/Notification-Library/Main/Library.lua
+local Update = loadstring(game:HttpGet("https://raw.githubusercontent.com/lobox920/Notification-Library/Main/Library.lua"))()
 local Alert = loadstring(Game:HttpGet"https://raw.githubusercontent.com/Minhnhatz/Idk/main/Ui.lua")()
 local Library = Update:Window("Blox Fruits")
 local Main = Library:Tab("Main","rbxassetid://10723407389")
