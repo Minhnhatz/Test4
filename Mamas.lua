@@ -1,22 +1,3 @@
-repeat wait(1) until game:IsLoaded()
-local Whitelist_Auth_Checking = false
-local Whitelist_Load = function()
-    print("[ WHITELIST STATUS ]")
-    print("> Script Name : Alchemy Hub")
-    print("> Discord Link : discord.gg/alchemyhub")
-    print("[ USER STATUS ]")
-    print("> Discord ID : "..LRM_LinkedDiscordID)
-    print("> Whitelist Expire : N/A")
-end
-
-if LRM_IsUserPremium then
-    Whitelist_Load()
-    wait()
-    Whitelist_Auth_Checking = true
-end
-
-repeat wait(1) until Whitelist_Auth_Checking == true
-
 ----------------------------------------------------------------------------------------------------------------------------------------------
 local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
 local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/SaveManager.lua"))()
